@@ -66,10 +66,10 @@ function Footer() {
                       <a href="https://jaysources.finance/">Jaysources</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Univote</a>
+                      <a href="#">Univote</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Kusuconsult Hub</a>
+                      <a href="#">Kusuconsult Hub</a>
                     </li>
                   </ul>
                 </div>
@@ -322,7 +322,7 @@ function BrandArea() {
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/kusu.svg"
+                  src="assets/images/client-logo/stacks.jpg"
                   alt="Brand Logo Images"
                 />
               </div>

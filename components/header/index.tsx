@@ -7,7 +7,7 @@ export function AppHeader() {
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
                 <a className="navbar-brand" href="index.html">
-                  <img src="assets/images/white-logo.svg" alt="Logo" />
+                  <img src="assets/images/white-logo.svg" alt="Logo" height={40} />
                 </a>
                 <button
                   className="navbar-toggler"

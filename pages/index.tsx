@@ -38,6 +38,7 @@ function Footer() {
                         src="assets/images/logo.svg"
                         alt="#"
                         className="img-fluid"
+                        height={50}
                       />
                     </a>
                   </div>

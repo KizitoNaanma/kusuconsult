@@ -6,7 +6,7 @@ export function HomeHero1() {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 col-12">
               <div className="header-content">
-                <h1>270+ projects turned into scale up companies since 2017</h1>
+                <h1>Serving the blockchain and cryptocurrency ecosystem since 2017</h1>
                 <p>
                   We partner with our clients providing full service blockchain
                   development, marketing, funding, key relationship development,
@@ -18,10 +18,7 @@ export function HomeHero1() {
                   <a href="javascript:void(0)" className="btn primary-btn">
                     Get Started
                   </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
-                    className="glightbox video-button"
-                  >
+                  <a href="https://youtu.be/CKZ7oG4TFEU" className="glightbox video-button">
                     <span className="btn icon-btn rounded-full">
                       <i className="lni lni-play"></i>
                     </span>

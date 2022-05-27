@@ -35,7 +35,7 @@ function Footer() {
                   <div className="logo">
                     <a href="index.html">
                       <img
-                        src="/black.svg"
+                        src="/KusuConsult-black.svg"
                         alt="#"
                         className="img-fluid"
                         height={50}
@@ -164,8 +164,8 @@ function ContactArea() {
                     </div>
                     <div className="contact-content">
                       <h4>Address</h4>
-                      <p>NO. 29 NENROT PLAZA DOMKART BALI ROAD.</p>
-                      <p>Jos, Plateau State</p>
+                      <p>KusuConsult, 2nd Floor Kalwa House, Zarmaganda, Jos</p>
+                      <p>Plateau State, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -328,7 +328,13 @@ function BrandArea() {
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/nhub.png"
+                  src="assets/images/bluzelle.png"
+                  alt="Brand Logo Images"
+                />
+              </div>
+              <div className="single-image">
+                <img
+                  src="assets/images/cypherium.png"
                   alt="Brand Logo Images"
                 />
               </div>

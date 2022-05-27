@@ -105,7 +105,6 @@ function Footer() {
                     <input
                       name="EMAIL"
                       placeholder="Email address"
-                      required="required"
                       type="email"
                     />
                     <div className="button">

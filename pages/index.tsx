@@ -35,7 +35,7 @@ function Footer() {
                   <div className="logo">
                     <a href="index.html">
                       <img
-                        src="/logo-.svg"
+                        src="/black.svg"
                         alt="#"
                         className="img-fluid"
                         height={50}

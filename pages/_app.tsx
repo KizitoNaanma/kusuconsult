@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <title>Business | Bootstrap 5 Business Template</title>
+      <title>KusuConsult</title>
 
       <link
         rel="shortcut icon"

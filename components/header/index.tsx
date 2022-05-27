@@ -29,23 +29,23 @@ export function AppHeader() {
                 >
                   <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                      <a className="page-scroll active" href="#hero-area">
+                      <a className=" active" href="#hero-area">
                         Home
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#services">
+                      <a className="" href="#services">
                         Services
                       </a>
                     </li>
 
                     <li className="nav-item">
-                      <a className="page-scroll" href="#pricing">
-                        Pricing
+                      <a className="" href="#trainings">
+                       Training
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#contact">
+                      <a className="" href="#contact">
                         Contact
                       </a>
                     </li>
@@ -80,12 +80,12 @@ function Sidebar() {
         <div className="sidebar-content">
           <div className="sidebar-logo">
             <a href="index.html">
-              <img src="assets/images/logo.svg" alt="Logo" />
+              <img src="/black.svg" alt="Logo" height={50} />
             </a>
           </div>
           <p className="text">
-            Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi
-            rerum iusto intro.
+            KusuConsult is commited to education individuals on blockchain and
+            how it can be applied in our day-to-day activities.
           </p>
 
           <div className="sidebar-menu">
@@ -110,7 +110,7 @@ function Sidebar() {
             <h5 className="social-title">Follow Us On</h5>
             <ul>
               <li>
-                <a href="javascript:void(0)">
+                <a href="#">
                   <i className="lni lni-facebook-filled"></i>
                 </a>
               </li>

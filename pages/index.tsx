@@ -43,14 +43,14 @@ function Footer() {
                     </a>
                   </div>
                   <p>
-                    Making the world a better place through constructing elegant
-                    hierarchies.
+                    KusuConsult is commited to education individuals on
+                    blockchain and how it can be applied in our day-to-day
+                    activities.
                   </p>
                   <p className="copyright-text">
-                    <span>© 2024 Ayro UI.</span>Designed and Developed by
+                    <span>© 2022.</span>Designed and Developed by
                     <a href="javascript:void(0)" rel="nofollow">
-                      {" "}
-                      Ayro UI{" "}
+                      KusuConsult Hub
                     </a>
                   </p>
                 </div>
@@ -58,18 +58,18 @@ function Footer() {
               <div className="col-lg-2 col-md-6 col-12">
                 <div className="footer-widget f-link">
                   <h5>Solutions</h5>
-                  <ul>
+                  <ul style={{ marginLeft: 0, paddingLeft: 0 }}>
                     <li>
-                      <a href="javascript:void(0)">Marketing</a>
+                      <a href="https://gonana.vercel.farm">Gonana</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Analytics</a>
+                      <a href="https://jaysources.finance/">Jaysources</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Commerce</a>
+                      <a href="javascript:void(0)">Univote</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Insights</a>
+                      <a href="javascript:void(0)">Kusuconsult Hub</a>
                     </li>
                   </ul>
                 </div>
@@ -77,18 +77,18 @@ function Footer() {
               <div className="col-lg-2 col-md-6 col-12">
                 <div className="footer-widget f-link">
                   <h5>Support</h5>
-                  <ul>
+                  <ul style={{ marginLeft: 0, paddingLeft: 0 }}>
                     <li>
-                      <a href="javascript:void(0)">Pricing</a>
+                      <a href="javascript:void(0)">Trainings</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Documentation</a>
+                      <a href="javascript:void(0)">Enquires</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Guides</a>
+                      <a href="javascript:void(0)">Contact</a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)">API Status</a>
+                      <a href="javascript:void(0)">Affiliates</a>
                     </li>
                   </ul>
                 </div>
@@ -152,8 +152,8 @@ function ContactArea() {
                     </div>
                     <div className="contact-content">
                       <h4>Contact</h4>
-                      <p>0984537278623</p>
-                      <p>yourmail@gmail.com</p>
+                      <p>+2347036171049</p>
+                      <p>kusuconsult@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -164,8 +164,8 @@ function ContactArea() {
                     </div>
                     <div className="contact-content">
                       <h4>Address</h4>
-                      <p>175 5th Ave, New York, NY 10010</p>
-                      <p>United States</p>
+                      <p>NO. 29 NENROT PLAZA DOMKART BALI ROAD.</p>
+                      <p>Jos, Plateau State</p>
                     </div>
                   </div>
                 </div>
@@ -176,7 +176,7 @@ function ContactArea() {
                     </div>
                     <div className="contact-content">
                       <h4>Schedule</h4>
-                      <p>24 Hours / 7 Days Open</p>
+                      <p>24 Hours / 5 Days Open</p>
                       <p>Office time: 10 AM - 5:30 PM</p>
                     </div>
                   </div>
@@ -245,7 +245,6 @@ function ContactArea() {
                       name="message"
                       id="message"
                       placeholder="Type Message"
-                      
                     ></textarea>
                   </div>
                 </div>
@@ -283,11 +282,10 @@ function BrandArea() {
             <div className="col-12">
               <div className="content">
                 <h6>Meet our Clients</h6>
-                <h2 className="fw-bold">Our Awesome Clients</h2>
+                <h2 className="fw-bold">Our Awesome Clients/Partners</h2>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form.
+                  We were successful because of our clients' success. That's why
+                  we love to make perfect solutions for your business.
                 </p>
               </div>
             </div>
@@ -300,37 +298,37 @@ function BrandArea() {
             <div className="clients-logos">
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/graygrids.svg"
+                  src="assets/images/client-logo/algorand.png"
                   alt="Brand Logo Images"
                 />
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/uideck.svg"
+                  src="assets/images/client-logo/bination.png"
                   alt="Brand Logo Images"
                 />
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/ayroui.svg"
+                  src="assets/images/client-logo/aerernity.png"
                   alt="Brand Logo Images"
                 />
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/lineicons.svg"
+                  src="assets/images/client-logo/moonbeam.png"
                   alt="Brand Logo Images"
                 />
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/tailwindtemplates.svg"
+                  src="assets/images/client-logo/kusu.svg"
                   alt="Brand Logo Images"
                 />
               </div>
               <div className="single-image">
                 <img
-                  src="assets/images/client-logo/ecomhtml.svg"
+                  src="assets/images/client-logo/nhub.png"
                   alt="Brand Logo Images"
                 />
               </div>
@@ -355,16 +353,12 @@ function CTAArea() {
                   solutions for your business
                 </h2>
                 <p>
-                  Why I say old chap that is, spiffing off his nut cor blimey
-                  guvnords geeza
-                  <br />
-                  bloke knees up bobby, sloshed arse William cack Richard. Bloke
-                  fanny around chesed of bum bag old lost the pilot say there
-                  spiffing off his nut.
+                  We were successful because of our clients' success. That's why
+                  we love to make perfect solutions for your business.
                 </p>
                 <div className="light-rounded-buttons">
                   <a href="#" className="btn primary-btn-outline">
-                    Get Started
+                    Contact Us
                   </a>
                 </div>
               </div>

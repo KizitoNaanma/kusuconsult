@@ -329,52 +329,10 @@ export function AppServices() {
               title="Developer Mentorship/training"
             />
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-services">
-              <div className="service-icon">
-                <i className="lni lni-dashboard"></i>
-              </div>
-              <div className="service-content">
-                <h4>Developer meetups</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-                  eirmod tempor ividunt labor dolore magna.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-services">
-              <div className="service-icon">
-                <i className="lni lni-layers"></i>
-              </div>
-              <div className="service-content">
-                <h4>Hackathons</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-                  eirmod tempor ividunt labor dolore magna.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-services">
-              <div className="service-icon">
-                <i className="lni lni-reload"></i>
-              </div>
-              <div className="service-content">
-                <h4>Seminars</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-                  eirmod tempor ividunt labor dolore magna.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div className="section-title-five">
+      <div className="section-title-five" id="trainings">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -389,44 +347,46 @@ export function AppServices() {
 
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="single-services">
-              <div className="service-icon">
-                <i className="lni lni-dashboard"></i>
+          <div className="col-lg-6 col-md-6">
+            <div className="single-services" style={{ alignSelf: "stretch" }}>
+              <div
+                style={{
+                  borderRadius: 12,
+                  overflow: "hidden",
+                  marginBottom: 24,
+                }}
+              >
+                <img src="/assets/images/women.jpg" alt="#" />
               </div>
               <div className="service-content">
-                <h4>Developer meetups</h4>
+                <h4>Female cryto meetups</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-                  eirmod tempor ividunt labor dolore magna.
+                  In our bid to gear up female engagement in crypto and
+                  blockchain adoption; we host meetups centered on motivating
+                  females to actively paricipate in blockchain and
+                  cryptocurrency activities with female speakers in he space.
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-services">
-              <div className="service-icon">
-                <i className="lni lni-layers"></i>
+          <div className="col-lg-6 col-md-6">
+            <div className="single-services" style={{ alignSelf: "stretch" }}>
+              <div
+                style={{
+                  borderRadius: 12,
+                  overflow: "hidden",
+                  marginBottom: 24,
+                }}
+              >
+                <img src="/assets/images/mixed.jpg" alt="#" />
               </div>
               <div className="service-content">
-                <h4>Hackathons</h4>
+                <h4>Free blockchain development trainings</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-                  eirmod tempor ividunt labor dolore magna.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-services">
-              <div className="service-icon">
-                <i className="lni lni-reload"></i>
-              </div>
-              <div className="service-content">
-                <h4>Seminars</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
-                  eirmod tempor ividunt labor dolore magna.
+                  We offer intensive 3 months blockchain development trainings
+                  for both beginnner and advanced developers intered in
+                  development and also, We encourage females to also participate
+                  and become blockchain developers.
                 </p>
               </div>
             </div>

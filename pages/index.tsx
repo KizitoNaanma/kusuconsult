@@ -244,7 +244,7 @@ function ContactArea() {
                       name="message"
                       id="message"
                       placeholder="Type Message"
-                      rows="5"
+                      
                     ></textarea>
                   </div>
                 </div>
@@ -378,12 +378,6 @@ function CTAArea() {
 function AfterFooter() {
   return (
     <div>
-      <div className="made-in-ayroui mt-4">
-        <a href="https://ayroui.com" target="_blank" rel="nofollow">
-          <img style="width:220px" src="assets/images/ayroui.svg" />
-        </a>
-      </div>
-
       <a href="#" className="scroll-top btn-hover">
         <i className="lni lni-chevron-up"></i>
       </a>

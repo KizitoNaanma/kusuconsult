@@ -80,7 +80,7 @@ function Sidebar() {
         <div className="sidebar-content">
           <div className="sidebar-logo">
             <a href="index.html">
-              <img src="/black.svg" alt="Logo" height={50} />
+              <img src="/KusuConsult-black.svg" alt="Logo" height={50} />
             </a>
           </div>
           <p className="text">

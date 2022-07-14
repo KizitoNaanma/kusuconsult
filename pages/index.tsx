@@ -320,12 +320,12 @@ function BrandArea() {
                   alt="Brand Logo Images"
                 />
               </div>
-              <div className="single-image">
+              {/* <div className="single-image">
                 <img
                   src="assets/images/client-logo/stacks.jpg"
                   alt="Brand Logo Images"
                 />
-              </div>
+              </div> */}
               <div className="single-image">
                 <img
                   src="assets/images/bluzelle.png"

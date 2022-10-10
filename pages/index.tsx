@@ -137,6 +137,7 @@ function Section2() {
     </div>
   );
 }
+
 function ContactArea() {
   return (
     <section id="contact" className="contact-section">
@@ -338,6 +339,20 @@ function BrandArea() {
                   alt="Brand Logo Images"
                 />
               </div>
+
+              <div className="single-image  px-3">
+                <img
+                  src="assets/images/11.jpeg"
+                  alt="Brand Logo Images"
+                />
+              </div>
+              <div className="single-image px-3">
+                <img
+                  src="assets/images/22.jpeg"
+                  alt="Brand Logo Images"
+                />
+              </div>
+
             </div>
           </div>
         </div>

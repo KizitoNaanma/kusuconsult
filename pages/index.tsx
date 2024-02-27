@@ -375,10 +375,7 @@ function CTAArea() {
                   We love to make perfect <br />
                   solutions for your business
                 </h2>
-                <p>
-                  We were successful because of our clients' success. That's why
-                  we love to make perfect solutions for your business.
-                </p>
+
                 <div className="light-rounded-buttons">
                   <a href="#" className="btn primary-btn-outline">
                     Contact Us

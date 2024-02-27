@@ -6,14 +6,14 @@ export function HomeHero1() {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 col-12">
               <div className="header-content">
-                <h1>Serving the blockchain and cryptocurrency ecosystem since 2017</h1>
-                <p>
+                <h1>developing softwares and Serving the blockchain and cryptocurrency ecosystem since 2017</h1>
+                {/* <p>
                   We partner with our clients providing full service blockchain
                   development, marketing, funding, key relationship development,
                   and advisory services to accelerate growth. We know what it
                   takes to launch and grow successful companies in the crypto
                   space. We also ideate, incubate, and launch our own companies.
-                </p>
+                </p> */}
                 <div className="button">
                   <a onClick={function(){
                     alert("My Alert")

@@ -283,9 +283,7 @@ export function AppServices() {
                 <h6>Services</h6>
                 <h2 className="fw-bold">Our Best Services</h2>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form.
+               
                 </p>
               </div>
             </div>

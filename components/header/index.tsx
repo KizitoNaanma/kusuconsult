@@ -6,7 +6,7 @@ export function AppHeader() {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="index.html">
+                <a className="navbar-brand" href="">
                   <img src="/KusuConsult-white.svg" alt="Logo" height={40} />
                 </a>
                 <button

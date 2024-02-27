@@ -1,6 +1,7 @@
 import { AppHeader } from "../components/header";
 import {
   AppServices,
+  CoreValues,
   HomeAboutUs,
   HomeHero1,
 } from "../components/home/sections";
@@ -12,6 +13,7 @@ export default function () {
       <HomeHero1 />
       <HomeAboutUs />
       <AppServices />
+      <CoreValues />
       <Pricing />
 
       <CTAArea />
@@ -32,7 +34,7 @@ function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="footer-widget f-about">
-                  <div className="logo">
+                  {/* <div className="logo">
                     <a href="index.html">
                       <img
                         src="/KusuConsult-black.svg"
@@ -41,21 +43,21 @@ function Footer() {
                         height={50}
                       />
                     </a>
-                  </div>
-                  <p>
+                  </div> */}
+                  {/* <p>
                     KusuConsult is commited to education individuals on
                     blockchain and how it can be applied in our day-to-day
                     activities.
-                  </p>
-                  <p className="copyright-text">
-                    <span>© 2022.</span>Designed and Developed by
+                  </p> */}
+                  <p className="">
+                    <span>© 2024. </span>Designed and Developed by
                     <a href="javascript:void(0)" rel="nofollow">
                       KusuConsult Hub
                     </a>
                   </p>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-6 col-12">
+              {/* <div className="col-lg-2 col-md-6 col-12">
                 <div className="footer-widget f-link">
                   <h5>Solutions</h5>
                   <ul style={{ marginLeft: 0, paddingLeft: 0 }}>
@@ -73,8 +75,8 @@ function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className="col-lg-2 col-md-6 col-12">
+              </div> */}
+              {/* <div className="col-lg-2 col-md-6 col-12">
                 <div className="footer-widget f-link">
                   <h5>Support</h5>
                   <ul style={{ marginLeft: 0, paddingLeft: 0 }}>
@@ -92,8 +94,8 @@ function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              </div> */}
+              {/* <div className="col-lg-4 col-md-6 col-12">
                 <div className="footer-widget newsletter">
                   <h5>Subscribe</h5>
                   <p>Subscribe to our newsletter for the latest updates</p>
@@ -115,7 +117,7 @@ function Footer() {
                     </div>
                   </form>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -165,8 +167,10 @@ function ContactArea() {
                     </div>
                     <div className="contact-content">
                       <h4>Address</h4>
-                      <p>KusuConsult, 2nd Floor Kalwa House, Zarmaganda, Jos</p>
-                      <p>Plateau State, Nigeria</p>
+                      <p> No. 23 Nenrot Plaza, Domkat Bali Road <br></br>
+                      Jos-South, Plateau State.</p>
+                     <p>Nigeria</p>
+
                     </div>
                   </div>
                 </div>
@@ -177,7 +181,7 @@ function ContactArea() {
                     </div>
                     <div className="contact-content">
                       <h4>Schedule</h4>
-                      <p>24 Hours / 5 Days Open</p>
+                      <p>24 Hours Client Service</p>
                       <p>Office time: 10 AM - 5:30 PM</p>
                     </div>
                   </div>
@@ -193,8 +197,6 @@ function ContactArea() {
                     <span> Get in Touch </span>
                     <h2>Ready to Get Started</h2>
                     <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      quiblanditiis praesentium
                     </p>
                   </div>
                 </div>
@@ -285,8 +287,8 @@ function BrandArea() {
                 <h6>Meet our Clients</h6>
                 <h2 className="fw-bold">Our Awesome Clients/Partners</h2>
                 <p>
-                  We were successful because of our clients' success. That's why
-                  we love to make perfect solutions for your business.
+                We thrive in the success of our clients and this is why we can't 
+                relent in giving the best whenever we are trusted
                 </p>
               </div>
             </div>

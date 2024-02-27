@@ -40,8 +40,8 @@ export function AppHeader() {
                     </li>
 
                     <li className="nav-item">
-                      <a className="" href="#trainings">
-                       Training
+                      <a className="" href="#corevalues">
+                       Core Values
                       </a>
                     </li>
                     <li className="nav-item">

@@ -183,7 +183,7 @@ export function HomeAboutUs() {
                       aria-controls="nav-history"
                       aria-selected="false"
                     >
-                      What we've done
+                      Our Mission
                     </button>
                   </div>
                 </nav>
@@ -195,13 +195,17 @@ export function HomeAboutUs() {
                     aria-labelledby="nav-who-tab"
                   >
                     <p>
-                      We're a blockchain consultancy firm fully registered in
-                      Nigeria (RC1864177) and deeply involved in grass root
-                      education of blockchain technology across Nigeria; having
-                      developed several Dapps including UniVote, Jaysources (A
-                      DApp on the Algorand blockchain) and many others in
-                      development stage by different developers at the
-                      KusuConsult Hub.
+                    KusuConsult is a reputable software development and  blockchain 
+                    consultancy firm specializing in delivering innovative solutions 
+                    tailored to meet the unique needs of our clients. With a focus on 
+                    cutting-edge technology, exceptional quality, and client satisfaction, 
+                    we strive to empower businesses and organizations to thrive in the digital 
+                    age. At KusuConsult, we are dedicated to helping our clients harness the 
+                    power of technology to achieve their business goals and drive sustainable 
+                    growth. With our expertise, dedication, and commitment to excellence, 
+                    we are confident in our ability to deliver exceptional results and create 
+                    lasting value for our clients.
+
                     </p>
                     <p></p>
                   </div>
@@ -212,17 +216,12 @@ export function HomeAboutUs() {
                     aria-labelledby="nav-vision-tab"
                   >
                     <p>
-                      Because of the importance of blockchain in Africa and the
-                      urgent need for blockchain solutions on the continent,
-                      KusuConsult has taken the path of educating the masses and
-                      organizations on the need for blockchain solutions to be
-                      deployed in day-to-day activities and how to get actively
-                      involved in the evolving technology.
+                    To be a trusted partner and provider of world-class software solutions that drive innovation,
+                     efficiency, and growth for our clients globally.
+
+
                     </p>
-                    <p>
-                      We also work with developers to identify talents that will
-                      develop various blockchain platforms.
-                    </p>
+
                   </div>
                   <div
                     className="tab-pane fade"
@@ -230,15 +229,18 @@ export function HomeAboutUs() {
                     role="tabpanel"
                     aria-labelledby="nav-history-tab"
                   >
-                    <p>
+                    {/* <p>
                       KusuConsult helped to set up blockchain communities in
                       some states in Nigeria which includes; Plateau, Kaduna,
                       Kano, Katsina, Bauchi, Gombe, Borno, Abuja, Nasarawa, and
                       Taraba and has trained over 2500 people across these
                       states which some of them went into developing solutions
                       and contributing to different blockchain ecosystem.
+                    </p> */}
+                    <p>
+                    We are committed to delivering superior software development and consultancy services that exceed 
+                    client expectations, foster innovation, and create lasting value for our clients and their stakeholders.
                     </p>
-                    <p></p>
                   </div>
                 </div>
               </div>
@@ -293,37 +295,41 @@ export function AppServices() {
 
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-3 col-md-6">
             <Section
-              body=" After years of development of blockchain technologies and
-                  smart contracts, and designing dozens of token economics, the
-                  logical step for us was to broaden our expertise to the DeFi
-                  sector. The idea of its rapid growth and evolution really
-                  excites us."
+              body="We specialize in developing customized software solutions tailored 
+              to the specific requirements of our clients, ranging from web applications 
+              to mobile apps and enterprise systems."
               icon="lni lni-bolt-alt"
-              title="Decentralized Finance Development"
+              title="Custom Software Development"
             />
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-3 col-md-6">
             <Section
-              body="Looking for advanced and reliable blockchain solutions? Our
-              expert team of developers can build decentralized applications
-              on best blockchain platforms with smart-contract execution,
-              develop your own digital asset or integrate blockchain
-              technology into your existing system."
+              body="Our experienced consultants provide strategic guidance, technical expertise, 
+              and project management support to help clients navigate complex challenges and 
+              achieve their business objectives."
               icon="lni lni-bolt"
-              title="Blockchain Development"
+              title="Consultancy Services"
             />
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-3 col-md-6">
             <Section
-              body="Some of our active developers are mentors to our attendees in
-              subsequent meetups. We’ve had these developers/meetup
-              attendees submit prototypes on dacade.org for reward (a
-              blockchain online tutorial platform) and make developers
-              tutorials on"
+              body="We offer a wide range of technology solutions, including cloud computing, data analytics, 
+              artificial intelligence, and blockchain, to help clients leverage the latest advancements in 
+              technology to drive innovation and competitive advantage."
               icon="lni lni-bolt-alt"
-              title="Developer Mentorship/training"
+              title="Technology Solutions"
+            />
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Section
+              body="Our dedicated quality assurance team ensures that all our software solutions meet the highest 
+              standards of quality, reliability, and security, through comprehensive testing and quality assurance
+               processes.
+              "
+              icon="lni lni-bolt-alt"
+              title="Quality Assurance"
             />
           </div>
         </div>
@@ -356,12 +362,12 @@ export function AppServices() {
                 <img src="/assets/images/women.jpg" alt="#" />
               </div>
               <div className="service-content">
-                <h4>Female cryto meetups</h4>
+                <h4>Female focused meetups</h4>
                 <p>
-                  In our bid to gear up female engagement in crypto and
-                  blockchain adoption; we host meetups centered on motivating
-                  females to actively paricipate in blockchain and
-                  cryptocurrency activities with female speakers in he space.
+                In our bid to gear up female engagement in tech and blockchain adoption;
+                 we host meetups centred on motivating females to actively participate 
+                 in tech and blockchain activities/programs. These events are hosted and 
+                 coordinated by successful female speakers in the space.
                 </p>
               </div>
             </div>
@@ -390,6 +396,134 @@ export function AppServices() {
           </div>
         </div>
       </div>
+    </section>
+  );
+}
+
+export function CoreValues() {
+  function Section({
+    body,
+    title,
+  }: {
+    title: string;
+    body: string;
+  }) {
+    return (
+      <div className="single-services">
+        <div className="service-content">
+          <h4>{title}</h4>
+          <p>{body}</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <section id="corevalues" className="services-area services-eight">
+      <div className="section-title-five">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="content">
+                <h6>Core Values</h6>
+                {/* <h2 className="fw-bold">Our Best Services</h2> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 col-md-6">
+            <div className="single-services" style={{ alignSelf: "stretch" }}>
+
+              <div className="service-content">
+                <h4>Excellence</h4>
+                <p>
+                We are dedicated to delivering excellence in everything we do, from our software
+                 development processes to the quality of our customer service.
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="single-services" style={{ alignSelf: "stretch" }}>
+
+              <div className="service-content">
+                <h4>Innovation</h4>
+                <p>
+                We embrace innovation and creativity to develop cutting-edge solutions that address 
+                the evolving needs of our clients and the market.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="single-services" style={{ alignSelf: "stretch" }}>
+
+              <div className="service-content">
+                <h4>Integrity</h4>
+                <p>
+                We conduct business with integrity, honesty, and transparency, 
+                maintaining the highest ethical standards in all our interactions.
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6">
+            <div className="single-services" style={{ alignSelf: "stretch" }}>
+
+              <div className="service-content">
+                <h4>Collaboration</h4>
+                <p>
+                We believe in the power of collaboration and teamwork,
+                working closely with our clients and partners to achieve shared goals and success.
+                </p>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+
+      {/* <div className="section-title-five">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="content">
+              <ol className="list-group list-group-numbered core-values">
+                <li className="list-group-item d-flex justify-content-between align-items-start">
+                  <div className="ms-2 me-auto">
+                    <div className="fw-bold">Excellence</div>
+                    We are dedicated to delivering excellence in everything we do, from our software 
+                    development processes to the quality of our customer service.
+                  </div>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-start">
+                  <div className="ms-2 me-auto">
+                    <div className="fw-bold">Subheading</div>
+                    Cras justo odio
+                  </div>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-start">
+                  <div className="ms-2 me-auto">
+                    <div className="fw-bold">Subheading</div>
+                    Cras justo odio
+                  </div>
+                </li>
+              </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className="container core">
+
+      </div>
+
     </section>
   );
 }

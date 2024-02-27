@@ -377,7 +377,7 @@ function CTAArea() {
                 </h2>
 
                 <div className="light-rounded-buttons">
-                  <a href="#" className="btn primary-btn-outline">
+                  <a  href="#contact" className="btn primary-btn-outline">
                     Contact Us
                   </a>
                 </div>

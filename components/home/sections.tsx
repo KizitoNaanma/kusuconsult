@@ -15,9 +15,7 @@ export function HomeHero1() {
                   space. We also ideate, incubate, and launch our own companies.
                 </p> */}
                 <div className="button">
-                  <a onClick={function(){
-                    alert("My Alert")
-                  }} className="btn primary-btn">
+                  <a href="#contact" className="btn primary-btn">
                     Get Started
                   </a>
                   <a href="https://youtu.be/CKZ7oG4TFEU" className="glightbox video-button">

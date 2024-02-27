@@ -84,8 +84,8 @@ function Sidebar() {
             </a>
           </div>
           <p className="text">
-            KusuConsult is commited to education individuals on blockchain and
-            how it can be applied in our day-to-day activities.
+          KusuConsult strives for exceptional software solutions, fostering 
+          innovation and lasting value for clients.
           </p>
 
           <div className="sidebar-menu">

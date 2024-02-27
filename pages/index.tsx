@@ -50,7 +50,7 @@ function Footer() {
                     activities.
                   </p> */}
                   <p className="">
-                    <span>© 2024. </span>Designed and Developed by
+                    <span>© 2024 • </span>Designed and Developed by
                     <a href="javascript:void(0)" rel="nofollow">
                       KusuConsult Hub
                     </a>
